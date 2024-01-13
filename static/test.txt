@@ -1,0 +1,1 @@
+I'll be served as a static file.

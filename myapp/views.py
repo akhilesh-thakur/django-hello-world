@@ -1,7 +1,10 @@
 from django.shortcuts import render, HttpResponse
 
 def index(request):
-    return HttpResponse("Home Page")
+    return render(request, 'index.html')
+
+    # You will use 'HttpResponse' if you want to server a simple string.
+    # return HttpResponse("Home Page")
 
 def about(request):
     return HttpResponse("This is About Page")
