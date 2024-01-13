@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
+.env
+
+# Database
+*.sqlite3
+*.db
+
+# Static files
+staticfiles/
+
+# Media files
+media/
+
+# Secret key
+*.secret_key
+
+# Configuration file
+config/settings/local.py
+
+# Log files
+*.log
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Compiled Python bytecode
+config/__pycache__/
+*.pyc
+
+# Dependency directories
+venv/
+env/
+__env__/
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Miscellaneous
+*.bak
+*.swp
+.DS_Store
