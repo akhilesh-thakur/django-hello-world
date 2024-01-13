@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-)3_bxl4jrd=%s4v!(!8plc1=gimy%*4$s_+=si)ti4kb%m#)zl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'config']
 
 
 # Application definition
@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'django_hello_world.urls'
+ROOT_URLCONF = 'config.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django_hello_world.wsgi.application'
+WSGI_APPLICATION = 'config.wsgi.application'
 
 
 # Database
