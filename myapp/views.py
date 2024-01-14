@@ -7,12 +7,12 @@ def index(request):
     # return HttpResponse("Home Page")
 
 def about(request):
-    return HttpResponse("This is About Page")
+    return render(request, "about.html")
 
 def contact(request):
-    return HttpResponse("Contact Page")
+    return render(request, "contact.html")
 
 def services(request):
-    return HttpResponse("Our Services Page")
+    return render(request, "services.html")
 
 # Create your views here.
