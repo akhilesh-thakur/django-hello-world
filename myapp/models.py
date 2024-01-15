@@ -7,3 +7,7 @@ class Contact(models.Model):
     phone= models.CharField(max_length=12)
     message= models.TextField()
     date= models.DateTimeField()
+
+    def __str__(self):
+        return self.name
+    

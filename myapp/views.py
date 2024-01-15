@@ -1,6 +1,7 @@
 from django.shortcuts import render, HttpResponse, redirect
 from datetime import datetime
 from myapp.models import Contact
+from django.contrib import messages
 
 def index(request):
     return render(request, 'index.html')
@@ -19,6 +20,7 @@ def contact(request):
         message = request.POST.get('message')
         contact = Contact(name=name, email=email, phone=phone, message=message, date = datetime.today())
         contact.save()
+        messages.success(request, "Thanks for being with us. We'll respond you soon!")
     return render(request, "contact.html") 
 
 def services(request):
