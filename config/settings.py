@@ -31,6 +31,8 @@ ALLOWED_HOSTS = ['localhost', 'config']
 # Application definition
 
 INSTALLED_APPS = [
+    # // register myapp
+    'myapp.apps.MyappConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
