@@ -6,4 +6,4 @@ class Contact(models.Model):
     email= models.CharField(max_length=100)
     phone= models.CharField(max_length=12)
     message= models.TextField()
-    data= models.DateField() 
+    date= models.DateTimeField()
