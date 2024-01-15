@@ -26,4 +26,10 @@ def contact(request):
 def services(request):
     return render(request, "services.html")
 
+def login(request):
+    return render(request, "login.html")
+
+def signup(request):
+    return render(request, "signup.html")
+
 # Create your views here.
