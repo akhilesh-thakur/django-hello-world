@@ -49,7 +49,12 @@ Here are some screenshots to give you a glimpse of different sections of the app
 
 ## Project Overview
 
-Provide a brief overview of your Django app. Mention its main features, purpose, and any unique aspects that set it apart.
+### Features
+
+- **User Authentication:** Secure and seamless user authentication system for a personalized experience.
+- **Admin Panel:** Intuitive admin panel for easy management and control over the app's data.
+- **Service Pages:** Explore our range of services through dedicated service pages.
+- **Responsive Design:** A responsive and user-friendly design ensuring a great experience across devices.
 
 ## Installation
 
